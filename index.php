@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Só pra poder dar push-->
-    <title>Centro de Memória - Etec</title>
+    <title>RelembraFP - Homepage</title>
     <?php include 'inc/includes.php' ?>
 </head>
 <body>
     <?php include 'inc/header.php'; ?>
 
     <main class="container d-flex flex-column justify-content-center align-items-center mt-3">
-        <h1>Relembra FP</h1>
+        <h1>RelembraFP</h1>
         <h3>O lugar para reviver suas memórias na ETEC Fernando Prestes</h3>
 
         <section class="carousel-section my-2">

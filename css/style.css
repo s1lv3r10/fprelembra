@@ -41,7 +41,7 @@ main {
 }
 
 main .carousel-section {
-    max-width: 70em;
+    max-width: 65em;
 }
 
 
@@ -72,4 +72,29 @@ p {
 
 .card-footer a {
     color: var(--cps-prata-base);
+
+    font-size: 1.3em;
+    font-family: 'RobotoSlab-Regular';
+}
+
+.card-footer a:hover {
+    color: var(--cps-cinza-claro);
+}
+
+/* ANOS */
+.anos button {
+    background-color: var(--cps-vermelho-principal);
+    color: var(--cps-prata-base);
+
+    font-size: 1.3em;
+    font-family: 'RobotoSlab-Regular';
+
+    padding-block: 0.6em;
+}
+
+.anos button:hover,
+.card-footer:hover
+{
+    background-color: var(--cps-vermelho-escuro);
+    color: var(--cps-cinza-claro);
 }
