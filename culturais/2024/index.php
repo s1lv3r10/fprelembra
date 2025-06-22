@@ -14,7 +14,8 @@
             <p class="fs-5">
                 Nas Culturais de 2024, ocorreram as seguintes provas:
             </p>
-            <ul class="list-group w-100">
+            
+            <ul class="list-group w-100 mb-3 shadow-sm">
                 <li class="list-group-item">
                     <h3 class="emtitulo">Quadrilha</h3>
                     <p class="fs-5">
@@ -34,7 +35,43 @@
                     </p>
                 </li>
             </ul>
-            <hr>
+           
+            <!-- <div class="accordion w-100 mb-3" id="modalidades">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#quadrilha">
+                            Quadrilha
+                        </button>
+                    </h2>
+                    <div id="quadrilha" class="accordion-collapse collapse" data-bs-parent="#modalidades">
+                        <div class="accordion-body">
+                            <p class="fs-5">
+                                Descrição da quadrilha conforme o campo especificado na tabela culturais do banco de dados.
+                            </p>
+                            <p class="fs-5">
+                                O vencedor foi o <strong>EM2 (Desenvolvimento de Sistemas)</strong>, com o tema <strong>Tema do 2</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#foto">
+                            Fotografia
+                        </button>
+                    </h2>
+                    <div id="foto" class="accordion-collapse collapse" data-bs-parent="#foto">
+                        <div class="accordion-body">
+                            <p class="fs-5">
+                                Descrição da fotografia conforme o campo especificado na tabela culturais do banco de dados.
+                            </p>
+                            <p class="fs-5">
+                                Em 2024, o tema da modalidade foi <strong><i>Tema da Fotografia</i></strong>, e o vencedor foi o <strong>EM2 (Desenvolvimento de Sistemas)</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
             <h2 class="emtitulo">Mídias</h2>
             <div class="midias container w-100">
                 <div class="row gy-4 justify-content-center">
@@ -53,18 +90,23 @@
                 </div>
             </div>
             <p class="fs-5 mt-4">
-                Tem alguma foto ou vídeo de alguma dessas provas que ficaria bem aqui? Preencha o form abaixo e aguarde
+                Tem alguma foto ou vídeo de alguma dessas provas que ficaria bem aqui? Preencha o formulário abaixo e aguarde
                 o veredito da moderação!
             </p>
-            <form action="#" class="w-75 text-start">
+            <form action="#" class="req w-100 text-start">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nome da sua requisição</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ex.: Quadrilha EM3 2022, Vôlei EM2 x EM6 2024...">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="exampleFormControlTextarea1" class="form-label">Detalhamento</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Conte-nos mais sobre sua mídia"></textarea>
                 </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Arquivo (imagem ou vídeo)</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <button type="submit" class="btn">Enviar requisição</button>
             </form> 
         </main>
     </body>

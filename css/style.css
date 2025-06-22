@@ -93,7 +93,8 @@ p {
 }
 
 .anos button:hover,
-.card-footer:hover
+.card-footer:hover,
+.req button:hover
 {
     background-color: var(--cps-vermelho-escuro);
     color: var(--cps-cinza-claro);
@@ -107,4 +108,21 @@ p {
 .midias img {
     max-width: inherit;
     max-height: inherit;
+}
+
+.req button {
+    background-color: var(--cps-vermelho-principal);
+    color: var(--cps-prata-base);
+
+    font-size: 1.1em;
+    font-family: 'RobotoSlab-Regular';
+
+    padding-block: 0.4em;
+    padding-inline: 1.2em;
+}
+
+.req label {
+    font-family: 'RobotoSlab-Regular';
+    
+    color: var(--cps-cinza-principal);
 }

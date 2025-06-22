@@ -65,7 +65,7 @@
                     </p>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn w-100 h-100">Ir até a página de culturais</a>
+                    <a href="./filantropicas/" class="btn w-100 h-100">Ir até a página de filantropicas</a>
                 </div>
             </div>
             <div class="card">
@@ -77,7 +77,7 @@
                     </p>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn w-100 h-100">Ir até a página de filantropicas</a>
+                    <a href="./culturais/" class="btn w-100 h-100">Ir até a página de culturais</a>
                 </div>
             </div>
         </div>
