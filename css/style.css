@@ -51,7 +51,7 @@ h1 {
     color: var(--cps-cinza-principal);
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
     font-family: 'RobotoSlab-Regular';
     color: var(--cps-cinza-sub);
 }
@@ -97,4 +97,14 @@ p {
 {
     background-color: var(--cps-vermelho-escuro);
     color: var(--cps-cinza-claro);
+}
+
+/* MODALIDADES */
+.emtitulo {
+    color: var(--cps-cinza-principal);
+}
+
+.midias img {
+    max-width: inherit;
+    max-height: inherit;
 }

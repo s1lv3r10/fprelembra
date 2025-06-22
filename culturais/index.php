@@ -19,7 +19,7 @@
             </p>
             <img src="../css/img/culturais.png" alt="culturais" class="mb-4 w-75">
             <div class="anos container d-flex flex-column gap-4">
-                <button class="btn w-100">2024</button>
+                <a href="./2024/"><button class="btn w-100">2024</button></a>
                 <button class="btn w-100">2023</button>
                 <button class="btn w-100">2022</button>
                 <button class="btn w-100">2021</button>
